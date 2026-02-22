@@ -22,7 +22,7 @@ sky_material = SubResource("PanoramaSkyMaterial_t7jwl")
 [sub_resource type="Environment" id="Environment_icybu"]
 background_mode = 2
 sky = SubResource("Sky_vroi3")
-tonemap_mode = 2
+tonemap_mode = 3
 fog_mode = 1
 fog_light_color = Color(0.272954, 0.419272, 0.484632, 1)
 fog_sun_scatter = 0.05
@@ -107,7 +107,7 @@ transform = Transform3D(-0.996195, -0.0151344, 0.0858316, 0, 0.984807, 0.173648,
 script = ExtResource("4_v2yip")
 
 [node name="Water" type="MeshInstance3D" parent="." unique_id=1861059025]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 4)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 4)
 sorting_offset = 999.0
 material_override = ExtResource("5_lt75t")
 cast_shadow = 0
